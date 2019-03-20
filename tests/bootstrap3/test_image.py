@@ -17,7 +17,7 @@ from cmsplugin_cascade.models import SharableCascadeElement
 from cmsplugin_cascade.bootstrap3.container import (
     BootstrapContainerPlugin, BootstrapRowPlugin, BootstrapColumnPlugin)
 from cmsplugin_cascade.bootstrap3.image import BootstrapImagePlugin
-from .test_base import CascadeTestCase
+from tests.test_base import CascadeTestCase
 
 BS3_BREAKPOINT_KEYS = list(tp[0] for tp in app_settings.CMSPLUGIN_CASCADE['bootstrap3']['breakpoints'])
 

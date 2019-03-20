@@ -100,7 +100,7 @@ class NumberInputWidget(widgets.NumberInput):
 
 
 class CascadingSizeWidgetMixin(object):
-    POSSIBLE_UNITS = ('px', 'em', '%')
+    POSSIBLE_UNITS = ('rem', 'px', 'em', '%')
     required_message = _("In '%(label)s': This field is required.")
     invalid_message = _("In '%(label)s': Value '%(value)s' shall contain a valid number, ending in %(endings)s.")
 

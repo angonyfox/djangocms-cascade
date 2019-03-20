@@ -8,7 +8,7 @@ from cmsplugin_cascade.models import CascadeElement
 from cmsplugin_cascade.bootstrap3.container import (BootstrapContainerPlugin, BootstrapRowPlugin,
          BootstrapRowForm, BootstrapColumnPlugin, BS3_BREAKPOINT_KEYS)
 from cmsplugin_cascade.generic.cms_plugins import HeadingPlugin
-from .test_base import CascadeTestCase
+from tests.test_base import CascadeTestCase
 
 
 class SectionPluginTest(CascadeTestCase):

@@ -14,7 +14,7 @@ from cms.utils.plugins import build_plugin_tree
 from cmsplugin_cascade.models import CascadeElement, CascadeClipboard
 from cmsplugin_cascade.bootstrap3.container import (BootstrapContainerPlugin, BootstrapRowPlugin,
          BootstrapRowForm, BootstrapColumnPlugin, BS3_BREAKPOINT_KEYS)
-from .test_base import CascadeTestCase
+from tests.test_base import CascadeTestCase
 
 
 class ClipboardPluginTest(CascadeTestCase):
